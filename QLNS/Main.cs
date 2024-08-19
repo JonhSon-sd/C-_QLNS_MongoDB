@@ -166,5 +166,11 @@ namespace QLNS
         {
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Khachhang());
+            ActivateButton(sender);
+        }
     }
 }

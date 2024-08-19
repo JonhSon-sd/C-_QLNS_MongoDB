@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nwocTv8uYQuWWNolAjIQwmpZqqAsdIuG6RBSBR9x1L0DcT22VGut/7UZG3qWQLDqHcxyCc4ChWh2egpKqyLUXQ==",
+  "dgSpecHash": "ZGTjyunMwAbtQbv06pymud5s6V2XQeln4CQ4wQc8z6k1BrXGaONp0K/O9rtnlAVWd/VuMBFoPqa+oKlJlvjzLA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ADMIN\\Desktop\\Mongo DB\\Quản Lý Nhà Sách MongoDB\\QLNS\\QLNS\\QLNS.csproj",
   "expectedPackageFiles": [
@@ -130,10 +130,10 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'iTextSharp 5.5.13.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'iTextSharp 5.5.13.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows8.0'. This package may not be fully compatible with your project.",
       "libraryId": "iTextSharp",
       "targetGraphs": [
-        "net8.0-windows7.0"
+        "net8.0-windows8.0"
       ]
     }
   ]

@@ -155,11 +155,42 @@ namespace QLNS
             LoadData();
 
             var reportForm = new Reportcs();
-            reportForm.ReportCompleted += () => LoadData();  // Đăng ký sự kiện
+            reportForm.ReportCompleted += () => LoadData();
+            reportForm.ReportCompleted += () => IncrementLuotMuaIfPhoneNumberExists();// Đăng ký sự kiện
 
             reportForm.Show();
 
         }
+
+        private void IncrementLuotMuaIfPhoneNumberExists()
+        {
+            try
+            {
+                string phoneNumber = txtsdt.Text;
+
+                // Find the customer with the matching phone number
+                var filter = Builders<khachh>.Filter.Eq("sdt", phoneNumber);
+                var customer = _context.Khachhs.Find(filter).FirstOrDefault();
+
+                if (customer != null)
+                {
+                    // Increment the 'LuotMua' by 1
+                    var update = Builders<khachh>.Update.Inc("luotmua", 1);
+                    _context.Khachhs.UpdateOne(filter, update);
+
+                    MessageBox.Show("Đã cập nhật lượt mua cho khách hàng có số điện thoại: " + phoneNumber);
+                }
+                else
+                {
+                    MessageBox.Show("Không tìm thấy khách hàng với số điện thoại: " + phoneNumber);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi cập nhật lượt mua: " + ex.Message);
+            }
+        }
+
 
         private void Banhang_Load(object sender, EventArgs e)
         {

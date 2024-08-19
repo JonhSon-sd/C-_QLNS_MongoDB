@@ -1,0 +1,17 @@
+C:\Users\ADMIN\Desktop\Mongo DB\Quản Lý Nhà Sách MongoDB\QLNS\QLNS\obj\Debug\net5.0-windows7.0\QLNS.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Mongo DB\Quản Lý Nhà Sách MongoDB\QLNS\QLNS\obj\Debug\net5.0-windows7.0\QLNS.Banhang.resources
+C:\Users\ADMIN\Desktop\Mongo DB\Quản Lý Nhà Sách MongoDB\QLNS\QLNS\obj\Debug\net5.0-windows7.0\QLNS.ChangePassword.resources
+C:\Users\ADMIN\Desktop\Mongo DB\Quản Lý Nhà Sách MongoDB\QLNS\QLNS\obj\Debug\net5.0-windows7.0\QLNS.dangky.resources
+C:\Users\ADMIN\Desktop\Mongo DB\Quản Lý Nhà Sách MongoDB\QLNS\QLNS\obj\Debug\net5.0-windows7.0\QLNS.ForgotPassword.resources
+C:\Users\ADMIN\Desktop\Mongo DB\Quản Lý Nhà Sách MongoDB\QLNS\QLNS\obj\Debug\net5.0-windows7.0\QLNS.Login.resources
+C:\Users\ADMIN\Desktop\Mongo DB\Quản Lý Nhà Sách MongoDB\QLNS\QLNS\obj\Debug\net5.0-windows7.0\QLNS.Main.resources
+C:\Users\ADMIN\Desktop\Mongo DB\Quản Lý Nhà Sách MongoDB\QLNS\QLNS\obj\Debug\net5.0-windows7.0\QLNS.Nhapkho.resources
+C:\Users\ADMIN\Desktop\Mongo DB\Quản Lý Nhà Sách MongoDB\QLNS\QLNS\obj\Debug\net5.0-windows7.0\QLNS.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\Mongo DB\Quản Lý Nhà Sách MongoDB\QLNS\QLNS\obj\Debug\net5.0-windows7.0\QLSach.resources
+C:\Users\ADMIN\Desktop\Mongo DB\Quản Lý Nhà Sách MongoDB\QLNS\QLNS\obj\Debug\net5.0-windows7.0\QLNS.Reportcs.resources
+C:\Users\ADMIN\Desktop\Mongo DB\Quản Lý Nhà Sách MongoDB\QLNS\QLNS\obj\Debug\net5.0-windows7.0\QLNS.thongke.resources
+C:\Users\ADMIN\Desktop\Mongo DB\Quản Lý Nhà Sách MongoDB\QLNS\QLNS\obj\Debug\net5.0-windows7.0\QLNS.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\Mongo DB\Quản Lý Nhà Sách MongoDB\QLNS\QLNS\obj\Debug\net5.0-windows7.0\QLNS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\Mongo DB\Quản Lý Nhà Sách MongoDB\QLNS\QLNS\obj\Debug\net5.0-windows7.0\QLNS.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\Mongo DB\Quản Lý Nhà Sách MongoDB\QLNS\QLNS\obj\Debug\net5.0-windows7.0\QLNS.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\Mongo DB\Quản Lý Nhà Sách MongoDB\QLNS\QLNS\obj\Debug\net5.0-windows7.0\QLNS.csproj.CoreCompileInputs.cache

@@ -47,6 +47,8 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
+            txtsdt = new TextBox();
+            label6 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
@@ -85,6 +87,8 @@
             // 
             // groupBox2
             // 
+            groupBox2.Controls.Add(label6);
+            groupBox2.Controls.Add(txtsdt);
             groupBox2.Controls.Add(button5);
             groupBox2.Controls.Add(txt_msp);
             groupBox2.Controls.Add(label5);
@@ -237,6 +241,22 @@
             label1.TabIndex = 0;
             label1.Text = "Tên sản phẩm";
             // 
+            // txtsdt
+            // 
+            txtsdt.Location = new Point(146, 222);
+            txtsdt.Name = "txtsdt";
+            txtsdt.Size = new Size(140, 23);
+            txtsdt.TabIndex = 15;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(307, 226);
+            label6.Name = "label6";
+            label6.Size = new Size(141, 15);
+            label6.TabIndex = 16;
+            label6.Text = "Số điện thoại khách hàng";
+            // 
             // Banhang
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -277,5 +297,7 @@
         private TextBox txt_msp;
         private Label label5;
         private Button button5;
+        private TextBox txtsdt;
+        private Label label6;
     }
 }

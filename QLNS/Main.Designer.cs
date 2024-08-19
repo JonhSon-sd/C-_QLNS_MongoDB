@@ -43,6 +43,7 @@
             button6 = new Button();
             panel_Body = new Panel();
             pictureBox2 = new PictureBox();
+            button7 = new Button();
             panel_left.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel_top.SuspendLayout();
@@ -53,6 +54,7 @@
             // panel_left
             // 
             panel_left.BackColor = Color.FromArgb(24, 49, 83);
+            panel_left.Controls.Add(button7);
             panel_left.Controls.Add(button5);
             panel_left.Controls.Add(button4);
             panel_left.Controls.Add(button3);
@@ -279,6 +281,27 @@
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
+            // button7
+            // 
+            button7.BackColor = Color.FromArgb(24, 49, 83);
+            button7.Dock = DockStyle.Top;
+            button7.FlatAppearance.BorderSize = 0;
+            button7.FlatStyle = FlatStyle.Flat;
+            button7.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button7.ForeColor = Color.White;
+            button7.Image = Properties.Resources.value1;
+            button7.ImageAlign = ContentAlignment.MiddleLeft;
+            button7.Location = new Point(0, 460);
+            button7.Name = "button7";
+            button7.Padding = new Padding(15, 0, 0, 0);
+            button7.Size = new Size(200, 65);
+            button7.TabIndex = 7;
+            button7.Text = "Khách hàng";
+            button7.TextAlign = ContentAlignment.MiddleLeft;
+            button7.TextImageRelation = TextImageRelation.ImageBeforeText;
+            button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
+            // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -316,5 +339,6 @@
         private Button button6;
         private Button btnMinsize;
         private Button btnMaximize;
+        private Button button7;
     }
 }

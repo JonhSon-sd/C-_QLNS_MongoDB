@@ -1,5 +1,6 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Driver;
+using QLNS;
 
 public class MongoDBContext
 {
@@ -16,4 +17,5 @@ public class MongoDBContext
     public IMongoCollection<Hoadon> Hoadons => _database.GetCollection<Hoadon>("Hoadon");
     public IMongoCollection<Kiemke> Kiemkes => _database.GetCollection<Kiemke>("Kiemke");
     public IMongoCollection<Nhaphang> Nhaphangs => _database.GetCollection<Nhaphang>("Nhaphang");
+    public IMongoCollection<khachh> Khachhs => _database.GetCollection<khachh>("Khachhang");
 }
